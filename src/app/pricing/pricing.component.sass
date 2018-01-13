@@ -1,0 +1,19 @@
+div.plan
+  display: inline-block
+  margin: 1em
+  border: 1px solid silver
+  cursor: pointer
+  padding: 2em
+  .info
+    height: 300px
+    .name
+      text-align: center
+    .price
+      text-align: center
+      font-family: serif
+  .buy
+    display: none
+    text-align: center
+  &.active
+    .buy
+      display: block
